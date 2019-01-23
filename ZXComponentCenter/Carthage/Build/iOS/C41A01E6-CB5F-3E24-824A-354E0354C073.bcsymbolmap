@@ -1,0 +1,100 @@
+BCSymbolMap Version: 2.0
++[ZXComponentCenter registerConnector:]
++[ZXComponentCenter unRegisterConnector:]
++[ZXComponentCenter canRouteURL:]
+___33+[ZXComponentCenter canRouteURL:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[ZXComponentCenter routeURL:]
++[ZXComponentCenter routeURL:withParameters:]
+___45+[ZXComponentCenter routeURL:withParameters:]_block_invoke
+___copy_helper_block_.87
+___destroy_helper_block_.88
++[ZXComponentCenter viewControllerForURL:]
++[ZXComponentCenter viewControllerForURL:withParameters:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___57+[ZXComponentCenter viewControllerForURL:withParameters:]_block_invoke
+___copy_helper_block_.92
+___destroy_helper_block_.93
++[ZXComponentCenter userParametersWithURL:andParameters:]
++[ZXComponentCenter URLDecodedString:]
++[ZXComponentCenter serviceForProtocol:]
+___40+[ZXComponentCenter serviceForProtocol:]_block_invoke
+___copy_helper_block_.119
+___destroy_helper_block_.120
+_zx_connectorMap
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_ZXComponentCenterProtocol
+l_OBJC_LABEL_PROTOCOL_$_ZXComponentCenterProtocol
+l_OBJC_PROTOCOL_REFERENCE_$_ZXComponentCenterProtocol
+___block_descriptor_tmp
+___block_descriptor_tmp.89
+___block_descriptor_tmp.94
+___block_descriptor_tmp.121
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/zhangxin/Desktop/ZXComponentCenter/ZXComponentCenter/ZXComponentCenter.m
+/Users/zhangxin/Desktop/ZXComponentCenter
+__destroy_helper_block_
+__copy_helper_block_
+__40+[ZXComponentCenter serviceForProtocol:]_block_invoke
+__57+[ZXComponentCenter viewControllerForURL:withParameters:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__45+[ZXComponentCenter routeURL:withParameters:]_block_invoke
+__33+[ZXComponentCenter canRouteURL:]_block_invoke
+-[ZXComponentTipViewController init]
++[ZXComponentTipViewController paramsErrorTipController]
++[ZXComponentTipViewController notURLTipController]
++[ZXComponentTipViewController notFoundTipConctroller]
+-[ZXComponentTipViewController viewDidLoad]
+-[ZXComponentTipViewController showDebugTipController:withParameters:]
+___70-[ZXComponentTipViewController showDebugTipController:withParameters:]_block_invoke
+-[ZXComponentTipViewController didTappedReturnButton:]
+-[ZXComponentTipViewController isparamsError]
+-[ZXComponentTipViewController setIsparamsError:]
+-[ZXComponentTipViewController isNotURLSupport]
+-[ZXComponentTipViewController setIsNotURLSupport:]
+-[ZXComponentTipViewController isNotFound]
+-[ZXComponentTipViewController setIsNotFound:]
+-[ZXComponentTipViewController showText]
+-[ZXComponentTipViewController setShowText:]
+-[ZXComponentTipViewController valueLabel]
+-[ZXComponentTipViewController setValueLabel:]
+-[ZXComponentTipViewController returnButton]
+-[ZXComponentTipViewController setReturnButton:]
+-[ZXComponentTipViewController .cxx_destruct]
+_OBJC_IVAR_$_ZXComponentTipViewController._isparamsError
+_OBJC_IVAR_$_ZXComponentTipViewController._isNotURLSupport
+_OBJC_IVAR_$_ZXComponentTipViewController._isNotFound
+_OBJC_IVAR_$_ZXComponentTipViewController._valueLabel
+_OBJC_IVAR_$_ZXComponentTipViewController._returnButton
+_OBJC_IVAR_$_ZXComponentTipViewController._showText
+/Users/zhangxin/Desktop/ZXComponentCenter/ZXComponentCenter/ZXComponentCore/ZXComponentTipViewController.m
+/Users/zhangxin/Desktop/ZXComponentCenter/ZXComponentCenter/ZXComponentCore/ZXComponentTipViewController.h
+__70-[ZXComponentTipViewController showDebugTipController:withParameters:]_block_invoke
++[ZXComponentNavigator navigator]
+___33+[ZXComponentNavigator navigator]_block_invoke
+-[ZXComponentNavigator init]
+-[ZXComponentNavigator setHookRouteBlock:]
+-[ZXComponentNavigator showURLController:baseViewController:routeMode:]
+-[ZXComponentNavigator pushViewController:baseViewController:]
+-[ZXComponentNavigator popToSharedViewController:baseViewController:]
+-[ZXComponentNavigator presentedViewController:baseViewController:]
+-[ZXComponentNavigator popToSharedViewController:InNavigationController:]
+-[ZXComponentNavigator topmostViewController]
+-[ZXComponentNavigator .cxx_destruct]
+-[ZXComponentNavigator(HookRouteBlock) hookShowURLController:baseViewController:routeMode:]
+_navigator.rootNavigator
+_navigator.onceToken
+___block_literal_global
+_OBJC_IVAR_$_ZXComponentNavigator._routeBlock
+/Users/zhangxin/Desktop/ZXComponentCenter/ZXComponentCenter/ZXComponentCore/ZXComponentNavigator.m
+__33+[ZXComponentNavigator navigator]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/once.h
++[UIViewController(NavigationTip) paramsError]
++[UIViewController(NavigationTip) notFound]
++[UIViewController(NavigationTip) notURLController]
+/Users/zhangxin/Desktop/ZXComponentCenter/ZXComponentCenter/ZXComponentCore/UIViewController+NavigationTip.m
+/Users/zhangxin/Library/Developer/Xcode/DerivedData/ZXComponentCenter-cmoyqmvqjsciykaayzlrtpvsfmxp/Build/Intermediates.noindex/ArchiveIntermediates/ZXComponentCenter/IntermediateBuildFilesPath/ZXComponentCenter.build/Release-iphoneos/ZXComponentCenter.build/DerivedSources/ZXComponentCenter_vers.c

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstViewController.h
 //  demo
 //
 //  Created by Bruce.zhang on 2019/1/21.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#define kINRouterURL_First            @"zx://first"
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface FirstViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

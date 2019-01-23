@@ -14,6 +14,10 @@
 		DBF7DDF521F5B55F0030E8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF7DDF321F5B55F0030E8FA /* LaunchScreen.storyboard */; };
 		DBF7DDF821F5B55F0030E8FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7DDF721F5B55F0030E8FA /* main.m */; };
 		DBF7DE0221F5B55F0030E8FA /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7DE0121F5B55F0030E8FA /* demoUITests.m */; };
+		DBF7DE1321F5B5E50030E8FA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7DE1221F5B5E50030E8FA /* FirstViewController.m */; };
+		DBF7DE1621F5B64E0030E8FA /* ZXFirstComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF7DE1521F5B64E0030E8FA /* ZXFirstComponent.m */; };
+		DBF7DE2321F5D46A0030E8FA /* ZXComponentCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7DE2121F5D4600030E8FA /* ZXComponentCenter.framework */; };
+		DBF7DE2421F5D46A0030E8FA /* ZXComponentCenter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7DE2121F5D4600030E8FA /* ZXComponentCenter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +29,20 @@
 			remoteInfo = demo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBF7DE1021F5B5B00030E8FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBF7DE2421F5D46A0030E8FA /* ZXComponentCenter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DBF7DDE521F5B55C0030E8FA /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +58,11 @@
 		DBF7DDFD21F5B55F0030E8FA /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF7DE0121F5B55F0030E8FA /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		DBF7DE0321F5B55F0030E8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF7DE1121F5B5E50030E8FA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DBF7DE1221F5B5E50030E8FA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DBF7DE1421F5B64E0030E8FA /* ZXFirstComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXFirstComponent.h; sourceTree = "<group>"; };
+		DBF7DE1521F5B64E0030E8FA /* ZXFirstComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXFirstComponent.m; sourceTree = "<group>"; };
+		DBF7DE2121F5D4600030E8FA /* ZXComponentCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZXComponentCenter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF7DE2321F5D46A0030E8FA /* ZXComponentCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +105,15 @@
 		DBF7DDE721F5B55C0030E8FA /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				DBF7DE2121F5D4600030E8FA /* ZXComponentCenter.framework */,
 				DBF7DDE821F5B55C0030E8FA /* AppDelegate.h */,
 				DBF7DDE921F5B55C0030E8FA /* AppDelegate.m */,
 				DBF7DDEB21F5B55C0030E8FA /* ViewController.h */,
 				DBF7DDEC21F5B55C0030E8FA /* ViewController.m */,
+				DBF7DE1121F5B5E50030E8FA /* FirstViewController.h */,
+				DBF7DE1221F5B5E50030E8FA /* FirstViewController.m */,
+				DBF7DE1421F5B64E0030E8FA /* ZXFirstComponent.h */,
+				DBF7DE1521F5B64E0030E8FA /* ZXFirstComponent.m */,
 				DBF7DDEE21F5B55C0030E8FA /* Main.storyboard */,
 				DBF7DDF121F5B55E0030E8FA /* Assets.xcassets */,
 				DBF7DDF321F5B55F0030E8FA /* LaunchScreen.storyboard */,
@@ -113,6 +142,7 @@
 				DBF7DDE121F5B55C0030E8FA /* Sources */,
 				DBF7DDE221F5B55C0030E8FA /* Frameworks */,
 				DBF7DDE321F5B55C0030E8FA /* Resources */,
+				DBF7DE1021F5B5B00030E8FA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF7DE1621F5B64E0030E8FA /* ZXFirstComponent.m in Sources */,
 				DBF7DDED21F5B55C0030E8FA /* ViewController.m in Sources */,
 				DBF7DDF821F5B55F0030E8FA /* main.m in Sources */,
 				DBF7DDEA21F5B55C0030E8FA /* AppDelegate.m in Sources */,
+				DBF7DE1321F5B5E50030E8FA /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +335,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				ZX_DISPLAY_NAME = DEMO;
 			};
 			name = Debug;
 		};
@@ -356,6 +389,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				ZX_DISPLAY_NAME = CASE;
 			};
 			name = Release;
 		};
@@ -363,7 +397,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demo",
+				);
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -371,6 +410,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.xin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -379,7 +419,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demo",
+				);
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,6 +432,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.xin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

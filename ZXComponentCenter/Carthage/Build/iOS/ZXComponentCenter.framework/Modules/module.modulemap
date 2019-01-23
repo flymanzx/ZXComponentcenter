@@ -1,0 +1,6 @@
+framework module ZXComponentCenter {
+  umbrella header "ZXComponentCenter.h"
+
+  export *
+  module * { export * }
+}
